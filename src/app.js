@@ -13,7 +13,6 @@ conexao.once("open", () => {
 });
 
 const app = express();
-routes(app)
-
+routes(app);
 
 export default app;
